@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  phone: MyString
+  email: MyString
+  password_digest: MyString
+  type_user: one
+  town: one
+  active: false
+  lock: false
+
+two:
+  phone: MyString
+  email: MyString
+  password_digest: MyString
+  type_user: two
+  town: two
+  active: false
+  lock: false

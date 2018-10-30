@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product: one
+  user: one
+  value: 1.5
+  active: false
+  lock: false
+
+two:
+  product: two
+  user: two
+  value: 1.5
+  active: false
+  lock: false

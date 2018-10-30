@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  user: one
+  unit: one
+  material: one
+  price: 1.5
+  amount: 1
+  date_publish: 2018-10-10 16:32:58
+  date_finish: 2018-10-10 16:32:58
+  location: MyText
+  collection_time: 2018-10-10 16:32:58
+  active: false
+  lock: false
+
+two:
+  title: MyString
+  description: MyText
+  user: two
+  unit: two
+  material: two
+  price: 1.5
+  amount: 1
+  date_publish: 2018-10-10 16:32:58
+  date_finish: 2018-10-10 16:32:58
+  location: MyText
+  collection_time: 2018-10-10 16:32:58
+  active: false
+  lock: false
