@@ -47,6 +47,6 @@ class TypeUsersController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def type_user_params
-      params.require(:type_user).permit(:name, :lock)
+      params.permit(:name, :lock)
     end
 end

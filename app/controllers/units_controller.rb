@@ -47,6 +47,6 @@ class UnitsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def unit_params
-      params.require(:unit).permit(:name, :lock)
+      params.permit(:name, :lock)
     end
 end

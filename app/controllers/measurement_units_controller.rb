@@ -47,6 +47,6 @@ class MeasurementUnitsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def measurement_unit_params
-      params.require(:measurement_unit).permit(:name, :lock)
+      params.permit(:name, :lock)
     end
 end
